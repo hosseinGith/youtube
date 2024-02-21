@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="../../styles/main.css" />
+    <link rel="stylesheet" href="../../styles/showResult.css" />
+  </head>
+  <body>
+    <header>
+      <section>
+        <div class="container">
+          <div class="headerDiv">
+            <div class="youtubeLogo">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 67 60"
+                fill=""
+                focusable="false"
+                style="
+                  pointer-events: none;
+                  display: block;
+                  width: 100%;
+                  height: 100%;
+                "
+              >
+                <path
+                  d="M63 14.87a7.885 7.885 0 00-5.56-5.56C52.54 8 32.88 8 32.88 8S13.23 8 8.32 9.31c-2.7.72-4.83 2.85-5.56 5.56C1.45 19.77 1.45 30 1.45 30s0 10.23 1.31 15.13c.72 2.7 2.85 4.83 5.56 5.56C13.23 52 32.88 52 32.88 52s19.66 0 24.56-1.31c2.7-.72 4.83-2.85 5.56-5.56C64.31 40.23 64.31 30 64.31 30s0-10.23-1.31-15.13z"
+                ></path>
+                <path
+                  fill="#FFF"
+                  class="logo-arrow"
+                  d="M26.6 39.43L42.93 30 26.6 20.57z"
+                ></path>
+              </svg>
+            </div>
+            <div class="inputSearchCont">
+              <input type="search" id="showSearchCont" />
+            </div>
+            <div class="leftContainer">
+              <div class="microphone">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path
+                    fill="var(--ci-primary-color, currentColor)"
+                    d="M256,328a96.108,96.108,0,0,0,96-96V112a96,96,0,0,0-192,0V232A96.108,96.108,0,0,0,256,328ZM192,112a64,64,0,0,1,128,0V232a64,64,0,0,1-128,0Z"
+                    class="ci-primary"
+                  />
+                  <path
+                    fill="var(--ci-primary-color, currentColor)"
+                    d="M400,176v56c0,79.4-64.6,144-144,144S112,311.4,112,232V176H80v56c0,91.653,70.424,167.154,160,175.265V496h32V407.265C361.576,399.154,432,323.653,432,232V176Z"
+                    class="ci-primary"
+                  />
+                </svg>
+              </div>
+              <button class="moreOptions">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="searchContainer">
+        <form class="header">
+          <button class="backBtn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              enable-background="new 0 0 24 24"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              focusable="false"
+              style="
+                pointer-events: none;
+                display: block;
+                width: 100%;
+                height: 100%;
+              "
+            >
+              <path
+                d="M21 11v1H5.64l6.72 6.72-.71.71-7.93-7.93 7.92-7.92.71.71L5.64 11H21z"
+              ></path>
+            </svg>
+          </button>
+          <div class="searchBar">
+            <input type="search" name="search" id="searchInput" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              enable-background="new 0 0 24 24"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              focusable="false"
+            >
+              <path
+                d="m20.87 20.17-5.59-5.59C16.35 13.35 17 11.75 17 10c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.75 0 3.35-.65 4.58-1.71l5.59 5.59.7-.71zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"
+              ></path>
+            </svg>
+          </div>
+          <div class="microphone">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <path
+                fill="var(--ci-primary-color, currentColor)"
+                d="M256,328a96.108,96.108,0,0,0,96-96V112a96,96,0,0,0-192,0V232A96.108,96.108,0,0,0,256,328ZM192,112a64,64,0,0,1,128,0V232a64,64,0,0,1-128,0Z"
+                class="ci-primary"
+              />
+              <path
+                fill="var(--ci-primary-color, currentColor)"
+                d="M400,176v56c0,79.4-64.6,144-144,144S112,311.4,112,232V176H80v56c0,91.653,70.424,167.154,160,175.265V496h32V407.265C361.576,399.154,432,323.653,432,232V176Z"
+                class="ci-primary"
+              />
+            </svg>
+          </div>
+        </form>
+      </section>
+    </header>
+    <main>
+      <section>
+        <div class="container">
+          <div class="otherVideos"></div>
+        </div>
+      </section>
+      <section class="showVideo">
+        <div class="container">
+          <div class="video">
+            <video controls src="../../assets/videos/behzadi.mp4"></video>
+          </div>
+          <div class="main">
+            <div class="aboutVideo">
+              <div class="title">
+                <span>عاقبت فرار کردن از مدرسه</span>
+                <div class="underText">
+                  <span>190.1 هزار بازدید</span>
+                  <span>1 روز پیش</span>
+                </div>
+              </div>
+              <div class="aboutChanel">
+                <div class="chanelName">
+                  <div class="right">
+                    <div class="prof">
+                      <img
+                        src="../../assets/images/profs/profImg.jpg"
+                        alt="xxx"
+                      />
+                    </div>
+                    <span>حمیداوی / hamidavi</span>
+                  </div>
+                  <div class="left">
+                    <img
+                      src="../../assets/images/Bell-youtubepng.parspng.com-5.png"
+                      alt="xxx"
+                    />
+                  </div>
+                </div>
+                <div class="videoDetails">
+                  <div class="likes">
+                    <div class="like">
+                      <div class="likeC">
+                        <svg
+                          id="Layer_1"
+                          data-name="Layer 1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 122.88 105.01"
+                        >
+                          <defs>
+                            <style>
+                              .cls-1 {
+                                fill-rule: evenodd;
+                              }
+                            </style>
+                          </defs>
+                          <title>like</title>
+                          <path
+                            class="cls-1"
+                            d="M4,43.36H32.37a4,4,0,0,1,4,4V101a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V47.39a4,4,0,0,1,4-4ZM62.16,6.3A7.36,7.36,0,0,1,66.23.65,8.14,8.14,0,0,1,71.79.34a15.36,15.36,0,0,1,5.3,2.71A26.21,26.21,0,0,1,86.81,21.9a57.41,57.41,0,0,1-.12,8.35q-.25,2.94-.76,6.15h20.2a21.58,21.58,0,0,1,9.1,2.33,14.7,14.7,0,0,1,5.6,4.92,12.55,12.55,0,0,1,2,7.51,18.1,18.1,0,0,1-1.82,6.93,21.82,21.82,0,0,1,.54,8.38,9.7,9.7,0,0,1-2.78,5.68,25.22,25.22,0,0,1-1.4,9.43,19.81,19.81,0,0,1-4.5,7,28.37,28.37,0,0,1-.9,5A17.3,17.3,0,0,1,109.5,99h0c-3.43,4.84-6.17,4.73-10.51,4.55-.61,0-1.26,0-2.26,0H57.39a19.08,19.08,0,0,1-8.86-1.78,21.13,21.13,0,0,1-7-6.06L41,94V48.15l2-.53c5.08-1.37,9.07-5.71,12.16-10.9a75.8,75.8,0,0,0,7-16.64V6.82l.06-.52Zm6.32-.78a2.15,2.15,0,0,0-1,1.57V20.46l-.12.77a82.31,82.31,0,0,1-7.61,18.24C56.4,45.09,52,49.91,46.37,52.14V93.07A14.6,14.6,0,0,0,50.93,97a14.14,14.14,0,0,0,6.46,1.21H96.73c.7,0,1.61,0,2.47.08,2.57.1,4.2.17,5.94-2.29h0a12.34,12.34,0,0,0,1.71-3.74,24.86,24.86,0,0,0,.79-5l.83-1.77a14.89,14.89,0,0,0,3.9-5.75,21.18,21.18,0,0,0,1-8.67l-.1-1.6,1.36-.84a4.09,4.09,0,0,0,1.64-3,17.44,17.44,0,0,0-.68-7.12l.21-1.94A13.12,13.12,0,0,0,117.51,51a7.29,7.29,0,0,0-1.17-4.38,9.53,9.53,0,0,0-3.59-3.12A16,16,0,0,0,106,41.77H79.51l.6-3.18a85.93,85.93,0,0,0,1.22-8.79,51,51,0,0,0,.13-7.55,20.76,20.76,0,0,0-7.62-15,10.15,10.15,0,0,0-3.41-1.79,3,3,0,0,0-2,0ZM22.64,85.3a5.13,5.13,0,1,1-5.13,5.13,5.13,5.13,0,0,1,5.13-5.13Z"
+                          />
+                        </svg>
+                        <span>50 هزار</span>
+                      </div>
+                    </div>
+                    <div class="deslike">
+                      <svg
+                        style="rotate: 180deg"
+                        id="Layer_1"
+                        data-name="Layer 1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 122.88 105.01"
+                      >
+                        <defs>
+                          <style>
+                            .cls-1 {
+                              fill-rule: evenodd;
+                            }
+                          </style>
+                        </defs>
+                        <title>like</title>
+                        <path
+                          class="cls-1"
+                          d="M4,43.36H32.37a4,4,0,0,1,4,4V101a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V47.39a4,4,0,0,1,4-4ZM62.16,6.3A7.36,7.36,0,0,1,66.23.65,8.14,8.14,0,0,1,71.79.34a15.36,15.36,0,0,1,5.3,2.71A26.21,26.21,0,0,1,86.81,21.9a57.41,57.41,0,0,1-.12,8.35q-.25,2.94-.76,6.15h20.2a21.58,21.58,0,0,1,9.1,2.33,14.7,14.7,0,0,1,5.6,4.92,12.55,12.55,0,0,1,2,7.51,18.1,18.1,0,0,1-1.82,6.93,21.82,21.82,0,0,1,.54,8.38,9.7,9.7,0,0,1-2.78,5.68,25.22,25.22,0,0,1-1.4,9.43,19.81,19.81,0,0,1-4.5,7,28.37,28.37,0,0,1-.9,5A17.3,17.3,0,0,1,109.5,99h0c-3.43,4.84-6.17,4.73-10.51,4.55-.61,0-1.26,0-2.26,0H57.39a19.08,19.08,0,0,1-8.86-1.78,21.13,21.13,0,0,1-7-6.06L41,94V48.15l2-.53c5.08-1.37,9.07-5.71,12.16-10.9a75.8,75.8,0,0,0,7-16.64V6.82l.06-.52Zm6.32-.78a2.15,2.15,0,0,0-1,1.57V20.46l-.12.77a82.31,82.31,0,0,1-7.61,18.24C56.4,45.09,52,49.91,46.37,52.14V93.07A14.6,14.6,0,0,0,50.93,97a14.14,14.14,0,0,0,6.46,1.21H96.73c.7,0,1.61,0,2.47.08,2.57.1,4.2.17,5.94-2.29h0a12.34,12.34,0,0,0,1.71-3.74,24.86,24.86,0,0,0,.79-5l.83-1.77a14.89,14.89,0,0,0,3.9-5.75,21.18,21.18,0,0,0,1-8.67l-.1-1.6,1.36-.84a4.09,4.09,0,0,0,1.64-3,17.44,17.44,0,0,0-.68-7.12l.21-1.94A13.12,13.12,0,0,0,117.51,51a7.29,7.29,0,0,0-1.17-4.38,9.53,9.53,0,0,0-3.59-3.12A16,16,0,0,0,106,41.77H79.51l.6-3.18a85.93,85.93,0,0,0,1.22-8.79,51,51,0,0,0,.13-7.55,20.76,20.76,0,0,0-7.62-15,10.15,10.15,0,0,0-3.41-1.79,3,3,0,0,0-2,0ZM22.64,85.3a5.13,5.13,0,1,1-5.13,5.13,5.13,5.13,0,0,1,5.13-5.13Z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="share">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      width="24px"
+                      height="24px"
+                    >
+                      <path
+                        d="M 15.990234 1.9902344 A 1.0001 1.0001 0 0 0 15.292969 3.7070312 L 17.585938 6 L 17 6 C 10.936593 6 6 10.936593 6 17 A 1.0001 1.0001 0 1 0 8 17 C 8 12.017407 12.017407 8 17 8 L 17.585938 8 L 15.292969 10.292969 A 1.0001 1.0001 0 1 0 16.707031 11.707031 L 20.707031 7.7070312 A 1.0001 1.0001 0 0 0 20.707031 6.2929688 L 16.707031 2.2929688 A 1.0001 1.0001 0 0 0 15.990234 1.9902344 z M 2.984375 7.9863281 A 1.0001 1.0001 0 0 0 2 9 L 2 19 C 2 20.64497 3.3550302 22 5 22 L 19 22 C 20.64497 22 22 20.64497 22 19 L 22 18 A 1.0001 1.0001 0 1 0 20 18 L 20 19 C 20 19.56503 19.56503 20 19 20 L 5 20 C 4.4349698 20 4 19.56503 4 19 L 4 9 A 1.0001 1.0001 0 0 0 2.984375 7.9863281 z"
+                      />
+                    </svg>
+                    <span>همرسانی</span>
+                  </div>
+                  <div class="remix">
+                    <span>رمیکس</span>
+                  </div>
+                  <div class="download">
+                    <span>دانلود</span>
+                  </div>
+                  <div>
+                    <span>باتشکر</span>
+                  </div>
+                  <div><span> ذخیره کردن </span></div>
+                </div>
+              </div>
+            </div>
+            <div class="comments">
+              <div class="title">نظرات 10.5 هزار</div>
+              <div class="bestComment">
+                <span>خاک تو سرت</span>
+              </div>
+            </div>
+            <div class="videos"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <div class="container">
+          <nav class="footerNav">
+            <ul>
+              <li>
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    enable-background="new 0 0 24 24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    focusable="false"
+                    style="
+                      pointer-events: none;
+                      display: block;
+                      width: 100%;
+                      height: 100%;
+                    "
+                  >
+                    <g>
+                      <path
+                        d="M4 21V10.08l8-6.96 8 6.96V21h-6v-6h-4v6H4z"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <span>صفحه اصلی</span>
+              </li>
+              <li>
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    focusable="false"
+                    style="
+                      pointer-events: none;
+                      display: block;
+                      width: 100%;
+                      height: 100%;
+                    "
+                  >
+                    <path
+                      d="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94c-1.29.68-2.07 2.04-2 3.49.07 1.42.93 2.67 2.22 3.25.03.01 1.2.5 1.2.5L6 14.93c-1.83.97-2.53 3.24-1.56 5.07.97 1.83 3.24 2.53 5.07 1.56l8.5-4.5c1.29-.68 2.06-2.04 1.99-3.49-.07-1.42-.94-2.68-2.23-3.25zm-.23 5.86-8.5 4.5c-1.34.71-3.01.2-3.72-1.14-.71-1.34-.2-3.01 1.14-3.72l2.04-1.08v-1.21l-.69-.28-1.11-.46c-.99-.41-1.65-1.35-1.7-2.41-.05-1.06.52-2.06 1.46-2.56l8.5-4.5c1.34-.71 3.01-.2 3.72 1.14.71 1.34.2 3.01-1.14 3.72L15.5 9.26v1.21l1.8.74c.99.41 1.65 1.35 1.7 2.41.05 1.06-.52 2.06-1.46 2.56z"
+                    ></path>
+                  </svg>
+                </div>
+                <span>short</span>
+              </li>
+              <li>
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    enable-background="new 0 0 24 24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    focusable="false"
+                    style="
+                      pointer-events: none;
+                      display: block;
+                      width: 100%;
+                      height: 100%;
+                    "
+                  >
+                    <path
+                      d="M10 18v-6l5 3-5 3zm7-15H7v1h10V3zm3 3H4v1h16V6zm2 3H2v12h20V9zM3 10h18v10H3V10z"
+                    ></path>
+                  </svg>
+                </div>
+                <span>اشتراک ها</span>
+              </li>
+              <li>
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    enable-background="new 0 0 24 24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    focusable="false"
+                    style="
+                      pointer-events: none;
+                      display: block;
+                      width: 100%;
+                      height: 100%;
+                    "
+                  >
+                    <path
+                      d="m11 7 6 3.5-6 3.5V7zm7 13H4V6H3v15h15v-1zm3-2H6V3h15v15zM7 17h13V4H7v13z"
+                    ></path>
+                  </svg>
+                </div>
+                <span>کتابخانه</span>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </footer>
+    <script src="../../scripts/showResult.js"></script>
+  </body>
+</html>

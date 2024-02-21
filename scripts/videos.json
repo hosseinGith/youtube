@@ -1,0 +1,92 @@
+[
+  {
+    "name": "عاقبت فرار از مدرسه !!",
+    "chanelName": "hamidavi/حمیداوی",
+    "videoTime": "0:06",
+    "views": "190.1 هزار بازدید",
+    "imgSrc": "../../assets/images/behzadi.jpg",
+    "profImg": "../../assets/images/profs/profImg.jpg",
+    "timeOut": "1 روز پیش",
+    "itemId": "1"
+  },
+  {
+    "name": "کتاب صوتی شبه خاطرات نوشته علی بهزادی با صدای ناصر زراعتی بخش دوم",
+    "videoTime": "4:42:44",
+    "chanelName": "Ketab soti naser zeraati",
+    "views": "10.5 هزار بازدید",
+    "profImg": "../../assets/images/profs/prof1.jpg",
+    "imgSrc": "../../assets/images/5454564.webp",
+    "timeOut": "1 روز پیش",
+    "itemId": "2"
+  },
+  {
+    "name": "دکتر محمد مصدق  از کتاب شبه خاطرات نوشته علی بهزادی با صدای ناصر زراعتی بخش اول",
+    "videoTime": "50:24",
+    "chanelName": "Ketab soti naser zeraati",
+    "views": "هزار بازدید 5.1",
+    "profImg": "../../assets/images/profs/prof1.jpg",
+    "imgSrc": "../../assets/images/23235234523d.webp",
+    "timeOut": "3 سال پیش",
+    "itemId": "3"
+  },
+  {
+    "name": "کتاب صوتی شبه خاطرات نوشته علی بهزادی با صدای ناصر زراعتی بخش دوم",
+    "videoTime": "2:40:25",
+    "chanelName": "Ketab soti naser zeraati",
+    "views": "هزار بازدید 1.1",
+    "profImg": "../../assets/images/profs/prof1.jpg",
+    "imgSrc": "../../assets/images/resultVideo.webp",
+    "timeOut": "2 سال پیش",
+    "itemId": "4"
+  },
+  {
+    "name": "کتاب صوتی شبه خاطرات نوشته علی بهزادی با صدای ناصر زراعتی بخش سوم",
+    "videoTime": "0:06",
+    "chanelName": "Ketab soti naser zeraati",
+    "views": "هزار بازدید 13.5",
+    "profImg": "../../assets/images/profs/prof1.jpg",
+    "imgSrc": "../../assets/images/resultVideo.webp",
+    "timeOut": "8 ماه پیش",
+    "itemId": "5"
+  },
+  {
+    "name": "مطور العاب عراقی",
+    "videoTime": "10:42",
+    "chanelName": "مطور العاب / Game developer",
+    "profImg": "../../assets/images/profs/profImg.jpg",
+    "imgSrc": "../../assets/images/656564.webp",
+    "views": "7.1 هزار بازدید",
+    "timeOut": "1 سال پیش",
+    "itemId": "6"
+  },
+  {
+    "name": "هاذه الجهاز ممنوع",
+    "videoTime": "15:24",
+    "chanelName": "atro / اترو",
+    "profImg": "../../assets/images/profs/profImg.jpg",
+    "imgSrc": "../../assets/images/6541654654.webp",
+    "views": "100.4 هزار بازدید",
+    "timeOut": "1 هفته پیش",
+    "itemId": "7"
+  },
+  {
+    "name": "اوسخ کارتون",
+    "videoTime": "10:42",
+    "chanelName": "ادهش عقلک",
+    "profImg": "../../assets/images/profs/profImg.jpg",
+    "imgSrc": "../../assets/images/65465416541.webp",
+    "views": "25.2 هزار بازدید",
+    "timeOut": "2 ماه پیش",
+    "itemId": "8"
+  },
+  {
+    "name": "نون برنجی شرین مخصوص عید",
+    "videoTime": "10:42",
+    "chanelName": "اموزش آشپزی",
+    "profImg": "../../assets/images/profs/profImg.jpg",
+    "imgSrc": "../../assets/images/hq720.webp",
+    "views": "2.6 هزار بازدید",
+    "timeOut": "1 سال پیش",
+    "itemId": "9"
+  }
+]

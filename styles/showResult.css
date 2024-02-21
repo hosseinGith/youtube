@@ -1,0 +1,347 @@
+header section > div .headerDiv {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+header section > div .youtubeLogo {
+  max-width: 35px;
+  fill: #ff0000;
+  flex-basis: 10%;
+}
+header section > div .inputSearchCont {
+  width: 100%;
+  display: flex;
+  background-color: var(--navbar-btn-bgcolor);
+  flex-basis: 75%;
+  border-radius: 20px;
+}
+header section > div .inputSearchCont input {
+  width: 100%;
+  background-color: transparent;
+  color: var(--font-color);
+  padding: 5px 10px;
+}
+header section > div .inputSearchCont input::-webkit-search-cancel-button {
+  display: none;
+}
+header section > div .leftContainer {
+  flex-basis: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  filter: invert();
+}
+header section > div .leftContainer .microphone svg {
+  width: 100%;
+  max-width: 30px;
+  height: 100%;
+  vertical-align: middle;
+}
+header section > div .moreOptions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+header section > div .moreOptions span {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #fff;
+  filter: invert();
+}
+
+header section.searchContainer.active {
+  display: block;
+}
+header section.searchContainer {
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  background-color: #00000088;
+}
+header section.searchContainer .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 2px;
+  background-color: var(--navbar-btn-bgcolor);
+}
+header section.searchContainer .header button {
+  background-color: transparent;
+  padding: 2px;
+}
+header section.searchContainer .header div {
+  width: max-content;
+}
+header section.searchContainer .header svg {
+  filter: invert(100);
+  width: 30px;
+}
+header section.searchContainer .header .searchBar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-basis: 80%;
+  background-color: #464646;
+  border-radius: 20px;
+  padding: 5px 2px;
+}
+header section.searchContainer .header .searchBar input {
+  flex-basis: 90%;
+  color: var(--font-color);
+  background-color: transparent;
+  padding: 2px 10px;
+}
+main {
+  overflow: auto;
+  padding: 15px 0;
+}
+main section > div .otherVideos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+main section > div .otherVideos .item {
+  display: inline-block;
+}
+main section > div .otherVideos .videoImg {
+  position: relative;
+}
+main section > div .otherVideos .videoImg .videoTime {
+  position: absolute;
+  left: 5px;
+  bottom: 15px;
+  background-color: #00000085;
+  border-radius: 5px;
+  padding: 1px 5px;
+  font-size: 13px;
+  color: var(--font-color);
+}
+main section > div .otherVideos .descVideo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+main section > div .otherVideos .descVideo .chanelProf {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+main section > div .otherVideos .descVideo .videoInfo {
+  flex-basis: 76%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  color: var(--font-color);
+}
+main section > div .otherVideos .descVideo .videoInfo .time {
+  opacity: 0.5;
+  font-size: 13px;
+}
+main section > div .otherVideos .descVideo .otherOptionBtn {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  gap: 2px;
+  flex-basis: 12%;
+}
+main section > div .otherVideos .descVideo .otherOptionBtn span {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--font-color);
+}
+main section.showVideo {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: none;
+  background-color: var(--body-bg-color);
+}
+main section.showVideo.active {
+  display: block;
+}
+main section.showVideo > div {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 32vh 68vh;
+}
+main section.showVideo .video {
+  width: 100%;
+}
+main section.showVideo .video video {
+  width: 100%;
+  max-height: 228px;
+  object-fit: contain;
+  aspect-ratio: 16/9;
+}
+main section.showVideo .main {
+  padding: 20px 10px;
+  overflow: auto;
+}
+main section.showVideo .main .aboutVideo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: var(--font-color);
+}
+main section.showVideo .main .aboutVideo .underText {
+  font-size: 13px;
+  opacity: 0.7;
+}
+main section.showVideo .main .aboutChanel .chanelName {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main section.showVideo .main .aboutChanel .chanelName .right {
+  display: flex;
+  align-items: center;
+}
+main section.showVideo .main .aboutChanel .chanelName .right .prof img {
+  max-width: 40px;
+  border-radius: 50%;
+}
+main section.showVideo .main .aboutChanel .chanelName .left {
+  background-color: var(--navbar-btn-bgcolor);
+  border-radius: 20px;
+  padding: 5px;
+}
+main section.showVideo .main .aboutChanel .chanelName .left img {
+  max-width: 20px;
+  vertical-align: middle;
+  filter: invert();
+}
+main section.showVideo .main .aboutChanel .videoDetails {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  padding: 0 5px;
+  gap: 30px;
+}
+main section.showVideo .main .aboutChanel .videoDetails > div.likes > div svg {
+  width: 100%;
+}
+main
+  section.showVideo
+  .main
+  .aboutChanel
+  .videoDetails
+  > div.likes
+  > div
+  > div {
+  display: flex;
+  border-left: 1px solid;
+  margin: 0 4px;
+  flex-direction: column;
+}
+main section.showVideo .main .aboutChanel .videoDetails > div {
+  display: flex;
+  justify-content: space-between;
+  min-width: max-content;
+  font-size: 13px;
+  align-items: center;
+  background-color: var(--navbar-btn-bgcolor);
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+main section.showVideo .main .aboutChanel .videoDetails svg {
+  max-width: 20px;
+  filter: invert();
+}
+main section.showVideo .main .comments {
+  width: 100%;
+  background-color: var(--navbar-btn-bgcolor);
+  color: var(--font-color);
+  border-radius: 10px;
+  padding: 5px;
+}
+main section.showVideo .main .comments > .title {
+  font-size: 12px;
+}
+main section.showVideo .main .comments > .bestComment {
+  padding: 10px 15px;
+}
+main section.showVideo .main .videos {
+  width: 100%;
+  height: 0;
+  margin: 10px 0;
+}
+main section.showVideo .main .videos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+main section.showVideo .main .videos .item {
+  display: inline-block;
+}
+main section.showVideo .main .videos .videoImg {
+  position: relative;
+}
+main section.showVideo .main .videos .videoImg .videoTime {
+  position: absolute;
+  left: 5px;
+  bottom: 15px;
+  background-color: #00000085;
+  border-radius: 5px;
+  padding: 1px 5px;
+  font-size: 13px;
+  color: var(--font-color);
+}
+main section.showVideo .main .videos .descVideo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+main section.showVideo .main .videos .descVideo .chanelProf {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+main section.showVideo .main .videos .descVideo .videoInfo {
+  flex-basis: 76%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  color: var(--font-color);
+}
+main section.showVideo .main .videos .descVideo .videoInfo .time {
+  opacity: 0.5;
+  font-size: 13px;
+}
+main section.showVideo .main .videos .descVideo .otherOptionBtn {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  gap: 2px;
+  flex-basis: 12%;
+}
+main section.showVideo .main .videos .descVideo .otherOptionBtn span {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--font-color);
+}
